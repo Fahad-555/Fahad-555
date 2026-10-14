@@ -4,7 +4,7 @@
 <div align="center">
 
 <!-- Laser scanner hero (file: assets/scanner.svg) -->
-<img src="https://raw.githubusercontent.com/Fahad-555/Fahad-555/main/assets/scanner.svg" alt="Muhammad Fahad - Computer Science Student, Full Stack Developer, SEO Specialist and WordPress Developer. On-Page, Off-Page, Technical and Local SEO" width="100%" />
+<img src="https://raw.githubusercontent.com/Fahad-555/Fahad-555/main/assets/scanner.svg?v=2" alt="Muhammad Fahad - Computer Science Student, Full Stack Developer, SEO Specialist and WordPress Developer. On-Page, Off-Page, Technical and Local SEO" width="100%" />
 
 <br/>
 
