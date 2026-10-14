@@ -9,9 +9,15 @@
       <path d="M30 0H0V30" fill="none" stroke="#ffffff" stroke-opacity="0.045" stroke-width="1"/>
     </pattern>
 
-    <linearGradient id="beam" x1="0" y1="0" x2="0" y2="1">
+    <!-- soft glow around the beam (no blur filter: gradients are much cheaper to animate) -->
+    <linearGradient id="glowWide" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#F85D7F" stop-opacity="0"/>
-      <stop offset="0.5" stop-color="#F85D7F" stop-opacity="0.55"/>
+      <stop offset="0.5" stop-color="#F85D7F" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#F85D7F" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="glowTight" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F85D7F" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#FF8FA9" stop-opacity="0.85"/>
       <stop offset="1" stop-color="#F85D7F" stop-opacity="0"/>
     </linearGradient>
 
@@ -23,21 +29,35 @@
       <stop offset="1" stop-color="#F85D7F" stop-opacity="0"/>
     </linearGradient>
 
-    <filter id="glow" x="-10%" y="-400%" width="120%" height="900%">
-      <feGaussianBlur stdDeviation="4"/>
-    </filter>
-
-    <!-- Everything above the beam is "revealed" in bright colours -->
-    <clipPath id="revealClip">
-      <rect x="0" y="0" width="900" height="0">
-        <animate attributeName="height" values="0;210;0" keyTimes="0;0.5;1" dur="4.5s" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/>
-      </rect>
+    <!-- static rounded clip so the moving layer never leaks past the corners -->
+    <clipPath id="box">
+      <rect x="1" y="1" width="898" height="208" rx="14"/>
     </clipPath>
   </defs>
 
   <!-- Background -->
   <rect x="1" y="1" width="898" height="208" rx="14" fill="url(#bg)" stroke="#2b3040" stroke-width="2"/>
   <rect x="1" y="1" width="898" height="208" rx="14" fill="url(#grid)"/>
+
+  <!-- Text (full brightness) -->
+  <g font-family="Fira Code, Consolas, 'Courier New', monospace" text-anchor="middle">
+    <text x="450" y="82" font-size="38" font-weight="700" fill="#ffffff" letter-spacing="3">MUHAMMAD FAHAD</text>
+    <text x="450" y="113" font-size="17" fill="#e6e9f2">Computer Science Student  &#8226;  Full Stack Developer</text>
+    <text x="450" y="140" font-size="18" font-weight="700" fill="#F85D7F">SEO Specialist &amp; WordPress Developer</text>
+    <text x="450" y="164" font-size="14" fill="#F8D866">On-Page  &#8226;  Off-Page  &#8226;  Technical  &#8226;  Local SEO</text>
+  </g>
+
+  <!-- ONE moving layer: a dark veil + the laser beam. Only a transform is animated, so it stays smooth.
+       Everything below the beam is veiled (not scanned yet); everything above is bright (scanned). -->
+  <g clip-path="url(#box)">
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 210;0 0" keyTimes="0;0.5;1" dur="4.5s" repeatCount="indefinite" calcMode="spline" keySplines="0.37 0 0.63 1;0.37 0 0.63 1"/>
+      <rect x="0" y="0" width="900" height="210" fill="#0d1117" fill-opacity="0.74"/>
+      <rect x="1" y="-26" width="898" height="52" fill="url(#glowWide)"/>
+      <rect x="1" y="-9" width="898" height="18" fill="url(#glowTight)"/>
+      <rect x="1" y="-1.5" width="898" height="3" fill="url(#edge)"/>
+    </g>
+  </g>
 
   <!-- Scanner corner brackets -->
   <g fill="none" stroke="#F85D7F" stroke-width="3" stroke-linecap="round">
@@ -50,35 +70,11 @@
   <!-- HUD labels -->
   <g font-family="Fira Code, Consolas, 'Courier New', monospace" font-size="11" fill="#8b93a7">
     <circle cx="40" cy="30" r="3.5" fill="#F85D7F">
-      <animate attributeName="opacity" values="1;0.15;1" dur="1.2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;0.2;1" dur="1.2s" repeatCount="indefinite"/>
     </circle>
     <text x="52" y="34" letter-spacing="2">SCANNING...</text>
     <text x="860" y="34" text-anchor="end" letter-spacing="2">ID: FAHAD-555</text>
     <text x="40" y="190" letter-spacing="2">MULTAN, PK</text>
     <text x="860" y="190" text-anchor="end" letter-spacing="2">SEO &#8226; WP &#8226; FULL STACK</text>
-  </g>
-
-  <!-- Dim base text (visible before the beam passes) -->
-  <g font-family="Fira Code, Consolas, 'Courier New', monospace" text-anchor="middle">
-    <text x="450" y="82" font-size="38" font-weight="700" fill="#4a5063" letter-spacing="3">MUHAMMAD FAHAD</text>
-    <text x="450" y="113" font-size="17" fill="#4a5063">Computer Science Student  &#8226;  Full Stack Developer</text>
-    <text x="450" y="140" font-size="18" font-weight="700" fill="#6b3a4a">SEO Specialist &amp; WordPress Developer</text>
-    <text x="450" y="164" font-size="14" fill="#4a5063">On-Page  &#8226;  Off-Page  &#8226;  Technical  &#8226;  Local SEO</text>
-  </g>
-
-  <!-- Bright text revealed by the scanner -->
-  <g clip-path="url(#revealClip)" font-family="Fira Code, Consolas, 'Courier New', monospace" text-anchor="middle">
-    <text x="450" y="82" font-size="38" font-weight="700" fill="#ffffff" letter-spacing="3">MUHAMMAD FAHAD</text>
-    <text x="450" y="113" font-size="17" fill="#e6e9f2">Computer Science Student  &#8226;  Full Stack Developer</text>
-    <text x="450" y="140" font-size="18" font-weight="700" fill="#F85D7F">SEO Specialist &amp; WordPress Developer</text>
-    <text x="450" y="164" font-size="14" fill="#F8D866">On-Page  &#8226;  Off-Page  &#8226;  Technical  &#8226;  Local SEO</text>
-  </g>
-
-  <!-- Laser scanning beam: top to bottom, then bottom to top -->
-  <g>
-    <animateTransform attributeName="transform" type="translate" values="0 0;0 210;0 0" keyTimes="0;0.5;1" dur="4.5s" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/>
-    <rect x="1" y="-22" width="898" height="44" fill="url(#beam)"/>
-    <rect x="1" y="-2" width="898" height="4" fill="url(#edge)" filter="url(#glow)"/>
-    <rect x="1" y="-1.25" width="898" height="2.5" fill="url(#edge)"/>
   </g>
 </svg>
