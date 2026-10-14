@@ -6,11 +6,7 @@
 <!-- Laser scanner hero (file: assets/scanner.svg) -->
 <img src="https://raw.githubusercontent.com/Fahad-555/Fahad-555/main/assets/scanner.svg" alt="Muhammad Fahad - Computer Science Student, Full Stack Developer, SEO Specialist and WordPress Developer. On-Page, Off-Page, Technical and Local SEO" width="100%" />
 
-<a href="https://github.com/DenverCoder1/readme-typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&center=true&width=760&height=50&color=F75C7E&vCenter=true&pause=1200&size=22&lines=Computer+Science+Student;Full+Stack+Developer;SEO+Specialist+%26+WordPress+Developer;On-Page+%7C+Off-Page+%7C+Technical+%7C+Local+SEO" alt="Typing SVG" />
-</a>
-
-<br/><br/>
+<br/>
 
 <!-- ============ SOCIAL LINKS ============ -->
 <a href="https://fahad-portfolio-rust.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-1F222E?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
@@ -36,7 +32,7 @@
 <!-- ============ COUNTER BADGES ============ -->
 <a href="https://github.com/Fahad-555?tab=repositories&sort=stargazers"><img src="https://custom-icon-badges.demolab.com/github/stars/Fahad-555?color=55960c&style=for-the-badge&labelColor=488207&logo=star" alt="Total stars" /></a>
 <a href="https://github.com/Fahad-555?tab=followers"><img src="https://custom-icon-badges.demolab.com/github/followers/Fahad-555?color=236ad3&labelColor=1155ba&style=for-the-badge&logo=person-add&label=Follow&logoColor=white" alt="Followers" /></a>
-<a href="https://github.com/Fahad-555"><img src="https://komarev.com/ghpvc/?username=Fahad-555&label=Profile%20Views&color=F75C7E&style=for-the-badge" alt="Profile views" /></a>
+<a href="https://hits.sh/github.com/Fahad-555/Fahad-555/"><img src="https://hits.sh/github.com/Fahad-555/Fahad-555.svg?style=for-the-badge&label=Profile%20Views&color=F75C7E&labelColor=1F222E" alt="Profile views" /></a>
 
 </div>
 
