@@ -1,14 +1,13 @@
 <!-- Profile README for Fahad-555 (repo must be named Fahad-555/Fahad-555). Style inspired by DenverCoder1. -->
-<!-- Find & replace every REPLACE_* value with your real handle/link. Delete any social badge you don't use. -->
+<!-- Find & replace every REPLACE_* value with your real handle/link. Delete any social badge or tool badge you don't use. -->
 
 <div align="center">
 
-<a href="https://github.com/Fahad-555">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=190&section=header&text=Muhammad%20Fahad&fontSize=54&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=SEO%20Specialist%20%26%20WordPress%20Developer&descAlignY=58&descSize=20" alt="Muhammad Fahad" />
-</a>
+<!-- Laser scanner hero (file: assets/scanner.svg) -->
+<img src="https://raw.githubusercontent.com/Fahad-555/Fahad-555/main/assets/scanner.svg" alt="Muhammad Fahad - Computer Science Student, Full Stack Developer, SEO Specialist and WordPress Developer. On-Page, Off-Page, Technical and Local SEO" width="100%" />
 
 <a href="https://github.com/DenverCoder1/readme-typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&center=true&width=640&height=45&color=F75C7E&vCenter=true&pause=1000&size=22&lines=SEO+Specialist+%26+WordPress+Developer;On-Page+%7C+Off-Page+%7C+Technical+%7C+Local+SEO;Computer+Science+Student+%E2%80%A2+Always+learning+new+things" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&center=true&width=760&height=50&color=F75C7E&vCenter=true&pause=1200&size=22&lines=Computer+Science+Student;Full+Stack+Developer;SEO+Specialist+%26+WordPress+Developer;On-Page+%7C+Off-Page+%7C+Technical+%7C+Local+SEO" alt="Typing SVG" />
 </a>
 
 <br/><br/>
@@ -41,18 +40,21 @@
 
 </div>
 
----
+<!-- Scanner divider (file: assets/scan-divider.svg) -->
+<p align="center"><img src="https://raw.githubusercontent.com/Fahad-555/Fahad-555/main/assets/scan-divider.svg" alt="" width="100%" /></p>
 
 ## 👋 About Me
 
+- 🎓 **Computer Science student** (7th semester)
+- 💻 **Full Stack Developer** — web apps, Android apps, databases and APIs
 - 🔍 **SEO Specialist** — on-page, off-page, technical and local SEO
 - 🧩 **WordPress Developer** — custom themes, speed optimization, client sites
-- 🎓 **Computer Science student** (7th semester)
 - 📍 Based in **Multan, Punjab, Pakistan**
 - 🌱 Always learning, always shipping
 - 📫 Reach me on any platform above — or visit my **[portfolio](https://fahad-portfolio-rust.vercel.app/)**
 
----
+<!-- Scanner divider (file: assets/scan-divider.svg) -->
+<p align="center"><img src="https://raw.githubusercontent.com/Fahad-555/Fahad-555/main/assets/scan-divider.svg" alt="" width="100%" /></p>
 
 ## 📘 My Top Projects
 
@@ -69,31 +71,35 @@
 
 </div>
 
----
+<!-- Scanner divider (file: assets/scan-divider.svg) -->
+<p align="center"><img src="https://raw.githubusercontent.com/Fahad-555/Fahad-555/main/assets/scan-divider.svg" alt="" width="100%" /></p>
 
 ## 🛠️ My Favorite Tools
 
-### 🔍 SEO & Marketing
+<!-- Delete any badge for a tool you don't use. -->
 
-<img src="https://img.shields.io/badge/Google%20Search%20Console-458CF5?style=for-the-badge&logo=google-search-console&logoColor=white" /> <img src="https://img.shields.io/badge/Google%20Analytics-E37400?style=for-the-badge&logo=google-analytics&logoColor=white" /> <img src="https://img.shields.io/badge/Google%20Business%20Profile-4285F4?style=for-the-badge&logo=google-my-business&logoColor=white" /> <img src="https://img.shields.io/badge/Ahrefs-FF7A00?style=for-the-badge&logoColor=white" /> <img src="https://img.shields.io/badge/SEMrush-FF642D?style=for-the-badge&logo=semrush&logoColor=white" /> <img src="https://img.shields.io/badge/Screaming%20Frog-6BB536?style=for-the-badge&logoColor=white" /> <img src="https://img.shields.io/badge/Yoast%20SEO-A4286A?style=for-the-badge&logo=yoast&logoColor=white" /> <img src="https://img.shields.io/badge/Rank%20Math-4F46E5?style=for-the-badge&logoColor=white" />
+### 👨‍💻 Programming & Markup Languages
 
-### 👨‍💻 Languages & Markup
-
-<img src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white" /> <img src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white" /> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" /> <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" /> <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=openjdk&logoColor=white" /> <img src="https://img.shields.io/badge/SQL-025E8C?style=for-the-badge&logo=database&logoColor=white" /> <img src="https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white" />
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" /> <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" /> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" /> <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" /> <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" /> <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=openjdk&logoColor=white" /> <img src="https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" /> <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" /> <img src="https://img.shields.io/badge/C%23-68217A?style=for-the-badge&logo=csharp&logoColor=white" /> <img src="https://img.shields.io/badge/SQL-025E8C?style=for-the-badge&logo=database&logoColor=white" /> <img src="https://img.shields.io/badge/PL%2FSQL-F00000?style=for-the-badge&logo=oracle&logoColor=white" /> <img src="https://img.shields.io/badge/Bash-121011?style=for-the-badge&logo=gnubash&logoColor=white" /> <img src="https://img.shields.io/badge/JSON-000000?style=for-the-badge&logo=json&logoColor=white" /> <img src="https://img.shields.io/badge/XML-E34F26?style=for-the-badge&logo=xml&logoColor=white" /> <img src="https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white" />
 
 ### 🧰 Frameworks, CMS & Libraries
 
-<img src="https://img.shields.io/badge/WordPress-21759B?style=for-the-badge&logo=wordpress&logoColor=white" /> <img src="https://img.shields.io/badge/Elementor-92003B?style=for-the-badge&logo=elementor&logoColor=white" /> <img src="https://img.shields.io/badge/WooCommerce-96588A?style=for-the-badge&logo=woocommerce&logoColor=white" /> <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" /> <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" /> <img src="https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" /> <img src="https://img.shields.io/badge/Remotion-0B84F3?style=for-the-badge&logoColor=white" />
+<img src="https://img.shields.io/badge/WordPress-21759B?style=for-the-badge&logo=wordpress&logoColor=white" /> <img src="https://img.shields.io/badge/Elementor-92003B?style=for-the-badge&logo=elementor&logoColor=white" /> <img src="https://img.shields.io/badge/WooCommerce-96588A?style=for-the-badge&logo=woocommerce&logoColor=white" /> <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" /> <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" /> <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=nodedotjs&logoColor=white" /> <img src="https://img.shields.io/badge/Express.js-404D59?style=for-the-badge&logo=express&logoColor=white" /> <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" /> <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" /> <img src="https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" /> <img src="https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white" /> <img src="https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=threedotjs&logoColor=white" /> <img src="https://img.shields.io/badge/Remotion-0B84F3?style=for-the-badge&logoColor=white" /> <img src="https://img.shields.io/badge/Firebase%20SDK-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" />
+
+### 🔍 SEO & Marketing Tools
+
+<img src="https://img.shields.io/badge/Google%20Search%20Console-458CF5?style=for-the-badge&logo=google-search-console&logoColor=white" /> <img src="https://img.shields.io/badge/Google%20Analytics-E37400?style=for-the-badge&logo=google-analytics&logoColor=white" /> <img src="https://img.shields.io/badge/Google%20Tag%20Manager-246FDB?style=for-the-badge&logo=googletagmanager&logoColor=white" /> <img src="https://img.shields.io/badge/Google%20Business%20Profile-4285F4?style=for-the-badge&logo=google-my-business&logoColor=white" /> <img src="https://img.shields.io/badge/PageSpeed%20Insights-4285F4?style=for-the-badge&logo=google&logoColor=white" /> <img src="https://img.shields.io/badge/Looker%20Studio-4285F4?style=for-the-badge&logo=looker&logoColor=white" /> <img src="https://img.shields.io/badge/Ahrefs-FF7A00?style=for-the-badge&logoColor=white" /> <img src="https://img.shields.io/badge/SEMrush-FF642D?style=for-the-badge&logo=semrush&logoColor=white" /> <img src="https://img.shields.io/badge/Moz-4285F4?style=for-the-badge&logoColor=white" /> <img src="https://img.shields.io/badge/Ubersuggest-FF6B00?style=for-the-badge&logoColor=white" /> <img src="https://img.shields.io/badge/Screaming%20Frog-6BB536?style=for-the-badge&logoColor=white" /> <img src="https://img.shields.io/badge/Yoast%20SEO-A4286A?style=for-the-badge&logo=yoast&logoColor=white" /> <img src="https://img.shields.io/badge/Rank%20Math-4F46E5?style=for-the-badge&logoColor=white" />
 
 ### 🗄️ Databases & Cloud Hosting
 
-<img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" /> <img src="https://img.shields.io/badge/Oracle-F00000?style=for-the-badge&logo=oracle&logoColor=white" /> <img src="https://img.shields.io/badge/MySQL-00758F?style=for-the-badge&logo=mysql&logoColor=white" /> <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" /> <img src="https://img.shields.io/badge/GitHub%20Pages-327FC7?style=for-the-badge&logo=github&logoColor=white" /> <img src="https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white" />
+<img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" /> <img src="https://img.shields.io/badge/Oracle-F00000?style=for-the-badge&logo=oracle&logoColor=white" /> <img src="https://img.shields.io/badge/MySQL-00758F?style=for-the-badge&logo=mysql&logoColor=white" /> <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" /> <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" /> <img src="https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white" /> <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" /> <img src="https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white" /> <img src="https://img.shields.io/badge/GitHub%20Pages-327FC7?style=for-the-badge&logo=github&logoColor=white" /> <img src="https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white" /> <img src="https://img.shields.io/badge/cPanel-FF6C2C?style=for-the-badge&logo=cpanel&logoColor=white" />
 
 ### 💻 Software & Tools
 
-<img src="https://img.shields.io/badge/Visual%20Studio%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" /> <img src="https://img.shields.io/badge/Android%20Studio-3DDC84?style=for-the-badge&logo=android-studio&logoColor=white" /> <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" /> <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /> <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" /> <img src="https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white" /> <img src="https://img.shields.io/badge/Photoshop-31A8FF?style=for-the-badge&logo=adobe-photoshop&logoColor=white" /> <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" /> <img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white" />
+<img src="https://img.shields.io/badge/Visual%20Studio%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" /> <img src="https://img.shields.io/badge/Android%20Studio-3DDC84?style=for-the-badge&logo=android-studio&logoColor=white" /> <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" /> <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /> <img src="https://img.shields.io/badge/GitHub%20Desktop-8034A9?style=for-the-badge&logo=github&logoColor=white" /> <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" /> <img src="https://img.shields.io/badge/XAMPP-FB7A24?style=for-the-badge&logo=xampp&logoColor=white" /> <img src="https://img.shields.io/badge/Oracle%20SQL%20Developer-F00000?style=for-the-badge&logo=oracle&logoColor=white" /> <img src="https://img.shields.io/badge/DBeaver-372923?style=for-the-badge&logo=dbeaver&logoColor=white" /> <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" /> <img src="https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white" /> <img src="https://img.shields.io/badge/Photoshop-31A8FF?style=for-the-badge&logo=adobe-photoshop&logoColor=white" /> <img src="https://img.shields.io/badge/Illustrator-FF9A00?style=for-the-badge&logo=adobe-illustrator&logoColor=white" /> <img src="https://img.shields.io/badge/Premiere%20Pro-9999FF?style=for-the-badge&logo=adobe-premiere-pro&logoColor=white" /> <img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white" /> <img src="https://img.shields.io/badge/Google%20Sheets-34A853?style=for-the-badge&logo=google-sheets&logoColor=white" /> <img src="https://img.shields.io/badge/Microsoft%20Office-D83B01?style=for-the-badge&logo=microsoft-office&logoColor=white" /> <img src="https://img.shields.io/badge/Google%20Chrome-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white" /> <img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" /> <img src="https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=anthropic&logoColor=white" />
 
----
+<!-- Scanner divider (file: assets/scan-divider.svg) -->
+<p align="center"><img src="https://raw.githubusercontent.com/Fahad-555/Fahad-555/main/assets/scan-divider.svg" alt="" width="100%" /></p>
 
 ## 📊 Stats and Activity
 
@@ -126,17 +132,11 @@
   </picture>
 </div>
 
-### ⚡ Recent GitHub Activity
-
-<!--RECENT_ACTIVITY:start-->
-<!--RECENT_ACTIVITY:end-->
-
----
+<!-- Scanner divider (file: assets/scan-divider.svg) -->
+<p align="center"><img src="https://raw.githubusercontent.com/Fahad-555/Fahad-555/main/assets/scan-divider.svg" alt="" width="100%" /></p>
 
 <div align="center">
 
 ⭐ **If you like this profile, drop a star on any repo — and say hi on any platform above!** ⭐
-
-<a href="https://capsule-render.vercel.app"><img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=110&section=footer" alt="footer" /></a>
 
 </div>
